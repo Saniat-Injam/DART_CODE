@@ -1,0 +1,27 @@
+void main() {
+  var name = "Spider Man";
+  print(name);
+
+  final age = 30;
+  print(age);
+
+  const flag = true;
+  print(flag);
+
+  /* When a create a variable using final keyword that variable becomes a runtime constant but when we create a variable   
+using const keyword the variable becomes a compile time constant so we typically use final when we don't know what a     
+value will be at compile time for example if we need to fetch some data and store it in a variable or if the value of a   
+variable depends on the return value of some other function then we might use the final keyword. So we would use const   
+when we do know the value of a variable at compile time and that's gonna be setting stone from the very begnning. */
+  
+  
+  // Simple Math Operation
+  print(age + 10);
+  print(age - 10);
+  print(age * 10);
+  print(age / 10);
+  print(age % 10);
+  
+  print("My name is " + name); // Concatnation
+  print("My name is $name"); // String Interpolation
+}

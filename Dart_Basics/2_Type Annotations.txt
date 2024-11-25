@@ -1,0 +1,22 @@
+void main () {
+  String name = "Spider Man";
+  print(name);
+  
+  int age = 30;
+  print(age);
+  
+  bool flag = true;
+  print(flag);
+  
+  const String item = "Ice Cream";
+  print(item);
+  
+  final int price = 50;
+  print(price);
+  
+  double movieRating = 8.5;
+  print(movieRating);
+  
+  int? num; // Initializer Expression
+  print(num);
+}
