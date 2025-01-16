@@ -12,7 +12,7 @@ greet(name, age) {
 
 
 
-// Giving type annotation
+/* Giving type annotation
 
 void main() {
   final greeting = greet("Spider Man", 30); // Arguments are the values that we pass into the function when we invoke it
@@ -37,3 +37,4 @@ String greet({String? name, required int age}) {
   return "Hi my name is $name and my age is $age";
 }
 
+*/
