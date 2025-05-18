@@ -1,4 +1,6 @@
-// Positional parameters and Positional Arguments
+///
+/// Positional parameters and Positional Arguments
+///
 void main() {
   final greeting = greet(25, "SANIAT");
   print(greeting);
@@ -27,7 +29,17 @@ String greet(String name, int age) {
   return "Hi, my name is $name and my age is $age";
 }
 
-Named parameters and Named arguments
+
+
+
+
+
+
+
+
+///
+/// Named parameters and Named arguments
+///
 void main() {
   final greeting = greet(name: "SANIAT", age: 27);
   print(greeting);
