@@ -1,5 +1,5 @@
 ///
-/// Positional parameters and Positional Arguments
+/// Positional parameters and Positional arguments
 ///
 void main() {
   final greeting = greet(25, "SANIAT");
